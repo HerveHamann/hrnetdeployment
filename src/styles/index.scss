@@ -1,0 +1,14 @@
+@import "./settings";
+@import "../styles/pages/home.scss";
+@import "../styles/pages/employelist.scss";
+@import "../styles/components/select.scss";
+@import "../styles/components/modal.scss";
+@import "../styles/components/table.scss";
+@import "../styles/components/pagination.scss";
+// @import "../styles/components/datePicker.scss";
+// @import "../styles/components/calendarHeader.scss";
+// @import "../styles/components/calendar.scss";
+
+@import "../../node_modules/datepicker-component-student-final/src/styles/components/calendar";
+@import "../../node_modules/datepicker-component-student-final/src/styles/components/calendarHeader";
+@import "../../node_modules/datepicker-component-student-final/src/styles/components/datePicker";

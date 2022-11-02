@@ -1,0 +1,107 @@
+.component-container {
+  display: flex;
+  flex-direction: column;
+  .search-field {
+    align-self: flex-end;
+    width: 250px;
+    text-align: end;
+    position: relative;
+    top: -21px;
+    span {
+      margin-right: 6.5px;
+    }
+  }
+
+  table {
+    width: 982px;
+    margin-top: -12px;
+    border-collapse: collapse;
+
+    tbody {
+      border-bottom: 1px solid $color-8;
+
+      .column-title {
+        th {
+          border-bottom: 1px solid $color-8;
+          cursor: pointer;
+
+          .cell {
+            padding: 6px 4px 6px 16px;
+            display: flex;
+            column-gap: 5px;
+            justify-content: space-around;
+            align-items: center;
+
+            .icon-container {
+              display: flex;
+              flex-direction: column;
+
+              .icon-up {
+                font-size: 14px;
+                position: relative;
+                top: 4px;
+                color: $color-4;
+              }
+              .icon-down {
+                font-size: 14px;
+                position: relative;
+                bottom: 4px;
+                color: $color-4;
+              }
+            }
+          }
+        }
+      }
+
+      .column {
+        height: 36px;
+        td {
+          border-top: 1px solid $color-4;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+      .column:hover {
+        background-color: $color-9;
+      }
+      .column-pair {
+        background-color: $color-7;
+      }
+      .column-impair {
+        background-color: $color-3;
+      }
+      .no-results {
+        td {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+.grey {
+  background-color: rgba(95, 95, 95, 0.05);
+}
+.icon-up-blue {
+  font-size: 14px;
+  position: relative;
+  top: 4px;
+  color: $color-1;
+}
+.icon-up-white {
+  font-size: 14px;
+  position: relative;
+  top: 4px;
+  color: $color-3;
+}
+.icon-down-blue {
+  font-size: 14px;
+  position: relative;
+  bottom: 4px;
+  color: $color-1;
+}
+.icon-down-white {
+  font-size: 14px;
+  position: relative;
+  bottom: 4px;
+  color: $color-3;
+}
